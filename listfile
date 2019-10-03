@@ -1,0 +1,27 @@
+total 56
+drwxr-xr-x 4 yayapig yayapig 4096 Oct  2 22:28 .
+drwxr-xr-x 5 yayapig yayapig 4096 Sep 23 19:22 ..
+-rw-rw-r-- 1 yayapig yayapig  202 Sep 28 15:44 100.py
+-rw-rw-r-- 1 yayapig yayapig  431 Sep 30 21:13 bmi.py
+-rw-rw-r-- 1 yayapig yayapig  650 Sep 30 21:16 functionEx.py
+-rw-rw-r-- 1 yayapig yayapig  311 Sep 28 16:17 gasmoney.py
+drwxr-xr-x 8 yayapig yayapig 4096 Oct  1 09:35 .git
+-rw-rw-r-- 1 yayapig yayapig  232 Sep  9 21:51 grosspay.py
+-rw-rw-r-- 1 yayapig yayapig  146 Sep  9 20:11 helloGUI.py
+-rw-rw-r-- 1 yayapig yayapig  127 Sep  9 20:43 hello.py
+-rw-r--r-- 1 yayapig yayapig    0 Oct  2 22:28 listfile
+-rw-rw-r-- 1 yayapig yayapig  119 Sep 28 15:58 money.py
+-rw-rw-r-- 1 yayapig yayapig  632 Oct  2 21:36 rockgame.py
+-rw-r--r-- 1 yayapig yayapig  314 Oct  1 22:07 test.py
+drwxrwxr-x 2 yayapig yayapig 4096 Sep  8 18:56 .vscode
+100.py
+bmi.py
+functionEx.py
+gasmoney.py
+grosspay.py
+helloGUI.py
+hello.py
+listfile
+money.py
+rockgame.py
+test.py
