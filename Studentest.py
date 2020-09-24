@@ -36,6 +36,28 @@ for i in range(1,5):
 (2,2) (2,3) (2,4) 
 (3,3) (3,4) (3,5) 
 (4,4) (4,5) (4,6)
-'''
 
 
+mylist = [1,2,3,4,5]
+def reverseL(mylist):
+	if int(mylist) == 0:
+		return mylist
+	else:
+		return reverseL(mylist[1:]) + mylist[0]
+
+
+print(reverseL(mylist))
+ '''
+
+
+class Point:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+    def origin(self):
+        (x,y) = (0,0)
+        print(f"{self.x,self.y}",end="")
+        
+    def distance(n):
+        distance = x - y
+    print(distance)

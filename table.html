@@ -1,0 +1,109 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Table Properties</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Verdana, sans-serif;
+            color: #111111;
+        }
+
+        table {
+            width: 600px;
+            empty-cells: hide;
+        }
+
+        th,
+        td {
+            padding: 7px 10px 10px 10px;
+        }
+
+        th {
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 90%;
+            border-bottom: 2px solid #111111;
+            border-top: 1px solid #999;
+            text-align: center;
+        }
+
+        tr:nth-child(2n) {
+            background-color: #efefef;
+        }
+
+        table {
+            border-bottom: 2px solid #111111;
+        }
+
+        .money {
+            text-align: right;
+        }
+
+        .vertical{
+            writing-mode: vertical-rl;
+           /* text-orientation: uppright; */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>First Edition Auctions</h1>
+    <table>
+        <tr>
+            <th>Author</th>
+            <th>Title</th>
+            <th class="money">Reserve Price</th>
+            <th class="money">Current Bid</th>
+        </tr>
+        <tr>
+            <td>E.E. Cummings</td>
+            <td>Tulips & Chimneys</td>
+            <td class="money">$2,000.00</td>
+            <td class="money">$2,642.50</td>
+        </tr>
+        <tr class="even">
+            <td>Charles d'Orleans</td>
+            <td>Poemes</td>
+            <td class="money"></td>
+            <td class="money">$5,866.00</td>
+        </tr>
+        <tr>
+            <td>T.S. Eliot</td>
+            <td>Poems 1909 - 1925</td>
+            <td class="money">$1,250.00</td>
+            <td class="money">$8,499.35</td>
+        </tr>
+        <tr class="even">
+            <td>Sylvia Plath</td>
+            <td>The Colossus</td>
+            <td class="money"></td>
+            <td class="money">$1031.72</td>
+        </tr>
+    </table>
+    <script>
+
+        document.write("<h1>Body Mass Index table</h1>");
+        document.write("<table> <tr> <th colspan='18'> Weight (pounds) </th></tr>");
+        document.write("<tr> <th class='vertical' rowspan='11'> Height(inches) </th><th colspan='2'>&nbsp</th>");
+        for (var weight = 120; weight <= 260; weight += 10) {
+            document.write("<th>" + weight + "</th>");
+        }
+        document.write("</tr>");
+        for (var height = 60; height < 70; height++) {
+            document.write("<tr><th>" + height + "<th>");
+            for (var weight = 120; weight <= 260; weight += 10) {
+                var BMI = weight * 703 / (height * height);
+                document.write("<td>" + BMI.toFixed(1) + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+
+
+    </script>
+
+</body>
+
+</html>
